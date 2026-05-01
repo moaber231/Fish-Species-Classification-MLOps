@@ -1,0 +1,31 @@
+site_name: group_56
+site_author: group56
+docs_dir: source
+
+theme:
+  language: en
+  name: material
+  features:
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: true
+            separate_signature: true
+            show_signature_annotations: true
+
+nav:
+  - Home: USAGE.md
+  - Deployment:
+      - Cloud Run Deployment: CLOUD_RUN_DEPLOYMENT.md
+      - Load Testing: LOAD_TESTING.md
+  - Monitoring:
+      - System Monitoring (M28): MONITORING.md
+      - Data Drift Detection (M27): DATA_DRIFT_DETECTION.md
+  - Project Summary:
+      - Week 2 Summary: WEEK_2_IMPLEMENTATION_REPORT.md
