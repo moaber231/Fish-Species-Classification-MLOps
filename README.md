@@ -1,5 +1,11 @@
 # Machine Learning Operation Project Description- Image Classification on fish species dataset.
 
+Group 56:
+
+Alessandra Carrara s252976
+Emmanouil Tsillingeridis s253154
+Guido Furlanetto s243131
+Nikolaos Fergadakis s253129
 
 ## Project Goal
 
@@ -40,7 +46,7 @@ Note: Running dvc pull for the first time will open a browser tab for Google aut
 Installing the project on your machine should be straighforward although Pytorch Geometric can cause some trouble. Clone the repo:
 
 ```
-git clone 
+git clone https://github.com/FergadakisN/group56.git
 ```
 
 Install requirements, preferably in seperate virtual environment:
@@ -191,5 +197,3 @@ will check the repositories and the code to verify your answers.
 Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
 a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
 started with Machine Learning Operations (MLOps).
-#   F i s h - S p e c i e s - C l a s s i f i c a t i o n - M L O p s  
- 
