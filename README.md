@@ -46,7 +46,7 @@ Note: Running dvc pull for the first time will open a browser tab for Google aut
 Installing the project on your machine should be straighforward although Pytorch Geometric can cause some trouble. Clone the repo:
 
 ```
-git clone https://github.com/FergadakisN/group56.git
+https://github.com/moaber231/Fish-Species-Classification-MLOps
 ```
 
 Install requirements, preferably in seperate virtual environment:
